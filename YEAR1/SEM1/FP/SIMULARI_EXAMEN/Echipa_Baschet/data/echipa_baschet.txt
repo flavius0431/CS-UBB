@@ -1,0 +1,8 @@
+Navickas;Gediminas;190.0;Fundas
+Simbotin;Flavius;199.0;Extrema
+Radu;Seba;198.0;Fundas
+Miron;Mircea;187.0;Fundas
+Graham;Paul;200.0;Extrema
+Dragusin;Ion;220.0;Pivot
+Dumitrescu;Tudor;186.0;Pivot
+ElNegro;Marian;167.0;Pivot

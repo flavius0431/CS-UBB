@@ -1,0 +1,33 @@
+from termcolor import colored
+
+def print_menu():
+    print(colored("Adaugă număr în listă", 'magenta'))
+    print("1.Adaugă număr complex la sfârșitul listei.")
+    print("2. Inserare număr complex pe o poziție dată.")
+    print(colored("Modifică elemente din listă.", 'magenta'))
+    print("3.Șterge element de pe o poziție dată.")
+    print("4.Șterge elementele de pe un interval de poziții.")
+    print("5. Înlocuiește toate aparițiile unui număr complex cu un alt număr complex.")
+    print(colored("Căutare numere.", 'magenta'))
+    print("6. Tipărește partea imaginara pentru numerele din listă. Se dă intervalul de poziții (sub secvența).")
+    print("7. Tipărește toate numerele complexe care au modulul mai mic decât 10")
+    print("8. Tipărește toate numerele complexe care au modulul egal cu 10")
+    print(colored("Operații cu numerele din listă", 'magenta'))
+    print("9. Suma numerelor dintr-o subsecventă dată (se da poziția de început și sfârșit).")
+    print("10. Produsul numerelor dintr-o subsecventă dată (se da poziția de început și sfârșit).")
+    print("11. Tipărește lista sortată descrescător după partea imaginara.")
+    print(colored("Filtrare", 'magenta'))
+    print("12. Filtrare parte reala prim – elimină din listă numerele complexe la care partea reala este prim.")
+    print("13. Filtrare modul – elimina din lista numerele complexe la care modulul este <,= sau > decât un număr dat.")
+    print("14.Undo")
+    print("p. Afiseaza lista de numere complexe")
+    print("x.Iesire din aplicatie.")
+    # print("")
+
+def print_menu2():
+    print("1.Adaugă număr complex la sfârșitul listei.",colored("adauga partea_reala partea_imaginara",'magenta'))
+    print("2.Șterge element de pe o poziție dată.",colored("stergere pozitia",'magenta'))
+    print("3. Filtrare parte reala prim – elimină din listă numerele complexe la care partea reala este prim.",colored("filtrare",'magenta'))
+    print("4.Tipărește partea imaginara pentru numerele din listă.", colored("tipareste pozitia_initiala pozitia_finala"))
+    print("5. Suma numerelor dintr-o subsecventă dată (se da poziția de început și sfârșit).",colored("suma pozitia_initiala pozitia_finala",'magenta'))
+    print("exit.Iesire din aplicatie.")

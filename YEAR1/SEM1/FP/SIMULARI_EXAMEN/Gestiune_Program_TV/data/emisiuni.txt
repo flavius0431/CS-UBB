@@ -1,0 +1,5 @@
+Jurnal;Stiri;10;Informatii
+Reportaj;Informare;11;Viata de sat
+Divertisent;Film;13;5 Sense
+Stiintific;Informare;7;Anatomie
+aaa;bbb;6;dddd

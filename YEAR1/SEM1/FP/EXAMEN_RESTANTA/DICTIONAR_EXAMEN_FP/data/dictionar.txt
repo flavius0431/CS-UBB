@@ -1,0 +1,5 @@
+Ro;Ana;En;Ana
+Ro;mere;En;apple
+Ro;zi;En;day
+Ro;mama;En;mother
+Fr;bonjur;Ro;buna ziua
