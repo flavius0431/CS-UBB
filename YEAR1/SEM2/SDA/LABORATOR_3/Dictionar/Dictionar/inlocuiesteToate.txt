@@ -1,0 +1,20 @@
+﻿Functia inlocuiesteToate()
+   head: ↑ Node
+
+   Cat timp head ≠ NIL atunci
+       [head].key.second← Transformator([head].Key.first, [head]Key.second)
+        head←[head].next;
+
+    SFcattimp
+SfFunctia
+
+
+
+Functia Transformator(TCheie c, TValoare v)
+    ret:TValoare
+
+    ret← =v*2
+    returneaza ret
+
+
+SfFunctia
