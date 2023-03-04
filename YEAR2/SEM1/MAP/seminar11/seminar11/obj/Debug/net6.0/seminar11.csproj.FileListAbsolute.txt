@@ -1,0 +1,15 @@
+D:\UBB_2_SEM1\MAP\seminar11\seminar11\bin\Debug\net6.0\seminar11.exe
+D:\UBB_2_SEM1\MAP\seminar11\seminar11\bin\Debug\net6.0\seminar11.deps.json
+D:\UBB_2_SEM1\MAP\seminar11\seminar11\bin\Debug\net6.0\seminar11.runtimeconfig.json
+D:\UBB_2_SEM1\MAP\seminar11\seminar11\bin\Debug\net6.0\seminar11.dll
+D:\UBB_2_SEM1\MAP\seminar11\seminar11\bin\Debug\net6.0\seminar11.pdb
+D:\UBB_2_SEM1\MAP\seminar11\seminar11\obj\Debug\net6.0\seminar11.csproj.AssemblyReference.cache
+D:\UBB_2_SEM1\MAP\seminar11\seminar11\obj\Debug\net6.0\seminar11.GeneratedMSBuildEditorConfig.editorconfig
+D:\UBB_2_SEM1\MAP\seminar11\seminar11\obj\Debug\net6.0\seminar11.AssemblyInfoInputs.cache
+D:\UBB_2_SEM1\MAP\seminar11\seminar11\obj\Debug\net6.0\seminar11.AssemblyInfo.cs
+D:\UBB_2_SEM1\MAP\seminar11\seminar11\obj\Debug\net6.0\seminar11.csproj.CoreCompileInputs.cache
+D:\UBB_2_SEM1\MAP\seminar11\seminar11\obj\Debug\net6.0\seminar11.dll
+D:\UBB_2_SEM1\MAP\seminar11\seminar11\obj\Debug\net6.0\refint\seminar11.dll
+D:\UBB_2_SEM1\MAP\seminar11\seminar11\obj\Debug\net6.0\seminar11.pdb
+D:\UBB_2_SEM1\MAP\seminar11\seminar11\obj\Debug\net6.0\seminar11.genruntimeconfig.cache
+D:\UBB_2_SEM1\MAP\seminar11\seminar11\obj\Debug\net6.0\ref\seminar11.dll
