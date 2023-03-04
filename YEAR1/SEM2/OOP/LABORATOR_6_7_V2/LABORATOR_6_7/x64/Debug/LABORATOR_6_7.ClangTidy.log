@@ -1,0 +1,15 @@
+Error while processing C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7_V2\LABORATOR_6_7\consola.cpp.
+Error while processing C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7_V2\LABORATOR_6_7\main.cpp.
+Error while processing C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7_V2\LABORATOR_6_7\Masina.cpp.
+Error while processing C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7_V2\LABORATOR_6_7\repo.cpp.
+Error while processing C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7_V2\LABORATOR_6_7\service.cpp.
+Error while processing C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7_V2\LABORATOR_6_7\teste.cpp.
+Error while processing C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7_V2\LABORATOR_6_7\validator.cpp.
+warning: argument unused during compilation: '/ZI' [clang-diagnostic-unused-command-line-argument]
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7_V2\LABORATOR_6_7/vector.h:218:10: error: expected a qualified name after 'typename' [clang-diagnostic-error]
+typename bool vector<Type>::Iterator::operator!=(const vector<Type>::Iterator& it) {
+         ^
+Suppressed 6 warnings (6 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+Found compiler error(s).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7_V2\LABORATOR_6_7/vector.h:218:10: error: expected unqualified-id [clang-diagnostic-error]

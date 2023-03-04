@@ -1,0 +1,21 @@
+[2022-04-05 22:20:55] [info] Start Program:
+Path:"C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\x64\Debug\LABORATOR_6_7.exe"
+Arguments:
+Working directory: "C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\"
+Modules: Selected: C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\x64\Debug\LABORATOR_6_7.exe Excluded: 
+Sources: Selected: C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7 Excluded: consola.cpp main.cpp consola.h main.h Masina.h repo.h service.h tests.h validator.h teste.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\flavi\AppData\Local\Temp\ic1simry.25g 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-05 22:20:55] [info] Module: C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\x64\Debug\LABORATOR_6_7.exe is selected because it matches selected pattern: C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\x64\Debug\LABORATOR_6_7.exe
+[2022-04-05 22:20:57] [info] ----------------------------------------------------
+[2022-04-05 22:20:57] [info] Coverage binary generated in file: C:\Users\flavi\AppData\Local\Temp\ic1simry.25g
+[2022-04-05 22:20:57] [info] ----------------------------------------------------

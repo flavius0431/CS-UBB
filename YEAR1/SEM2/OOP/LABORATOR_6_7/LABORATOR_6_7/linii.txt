@@ -1,0 +1,8 @@
+add bh13dls,ford,kuga,suv
+add cs34rpx,volvo,s60,sedan
+add bh25sis,volkswagen,passat,combi
+print
+delete bh13dls
+print
+update cs34rpx,bmw,f45,coupe
+print

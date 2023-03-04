@@ -1,0 +1,6 @@
+warning: argument unused during compilation: '/ZI' [clang-diagnostic-unused-command-line-argument]
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\teste.cpp:7:5: warning: explicitly assigning value of variable of type 'Masina' to itself [clang-diagnostic-self-assign-overloaded]
+        m1 = m1;
+        ~~ ^ ~~
+Suppressed 12 warnings (12 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.

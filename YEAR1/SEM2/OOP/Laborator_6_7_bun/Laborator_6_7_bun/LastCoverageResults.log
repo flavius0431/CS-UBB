@@ -1,0 +1,21 @@
+[2022-04-14 13:17:20] [info] Start Program:
+Path:"C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\Laborator_6_7_bun\x64\Debug\Laborator_6_7_bun.exe"
+Arguments:
+Working directory: "C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\Laborator_6_7_bun\Laborator_6_7_bun\"
+Modules: Selected: C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\Laborator_6_7_bun\x64\Debug\Laborator_6_7_bun.exe Excluded: 
+Sources: Selected: C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\Laborator_6_7_bun\Laborator_6_7_bun Excluded: consola.cpp Masina.h errors.h repo.h service.h teste.h validator.h main.cpp teste.cpp consola.h 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\flavi\AppData\Local\Temp\fptqy00m.vjw 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-14 13:17:20] [info] Module: C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\Laborator_6_7_bun\x64\Debug\Laborator_6_7_bun.exe is selected because it matches selected pattern: C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\Laborator_6_7_bun\x64\Debug\Laborator_6_7_bun.exe
+[2022-04-14 13:17:29] [info] ----------------------------------------------------
+[2022-04-14 13:17:29] [info] Coverage binary generated in file: C:\Users\flavi\AppData\Local\Temp\aqpu4iyj.h3o
+[2022-04-14 13:17:29] [info] ----------------------------------------------------

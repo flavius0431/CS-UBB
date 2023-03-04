@@ -1,0 +1,29 @@
+[2022-05-20 10:12:17] [info] Start Program:
+Path:"C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\AG\EX_LAB_4\x64\Debug\EX_LAB_4.exe"
+Arguments:
+Working directory: "C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\AG\EX_LAB_4\EX_LAB_4\"
+Modules: Selected: C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\AG\EX_LAB_4\x64\Debug\EX_LAB_4.exe Excluded: 
+Sources: Selected: C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\AG\EX_LAB_4\EX_LAB_4 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\flavi\AppData\Local\Temp\nhaqbtci.mqm 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-05-20 10:12:18] [info] Module: C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\AG\EX_LAB_4\x64\Debug\EX_LAB_4.exe is selected because it matches selected pattern: C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\AG\EX_LAB_4\x64\Debug\EX_LAB_4.exe
+[2022-05-20 10:12:18] [error] 
+
+----------------------------------------------------
+*** Unhandled exception code: 3765269347: Exception C++
+----------------------------------------------------
+If your application was built with optimization enabled, make sure you use --optimized_build
+
+[2022-05-20 10:12:18] [info] ----------------------------------------------------
+[2022-05-20 10:12:18] [info] Coverage binary generated in file: C:\Users\flavi\AppData\Local\Temp\nhaqbtci.mqm
+[2022-05-20 10:12:18] [info] ----------------------------------------------------
+[2022-05-20 10:12:18] [error] Your program stop with error code: -529697949

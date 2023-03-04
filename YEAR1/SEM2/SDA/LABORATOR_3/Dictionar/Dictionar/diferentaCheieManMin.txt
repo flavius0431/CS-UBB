@@ -1,0 +1,28 @@
+﻿
+
+Functia diferentaCheieMaxMin()
+     min:Intreg
+     max:Intreg
+     c:Intreg
+           ←
+     head: ↑ Node
+     min←10000000
+     max←-1
+     Daca start = NIL atunci
+         returneaza NULL_TVALOARE
+     SfDaca
+     Cat timp head ≠ NIL atunci
+         Daca head->key.first < min atunci
+             min ← head->key.first
+         SfDaca
+
+         Daca head->key.first > max atunci
+             max ← head->key.first
+         SfDaca
+         head ← [head].next
+     SfCatTimp
+     c ← max-min
+
+     returneaza c
+
+SfFunctia

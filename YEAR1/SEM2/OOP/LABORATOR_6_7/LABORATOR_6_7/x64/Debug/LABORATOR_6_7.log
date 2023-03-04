@@ -1,0 +1,73 @@
+﻿  main.cpp
+CLANGTIDY : warning : argument unused during compilation: '/ZI' [clang-diagnostic-unused-command-line-argument]
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\teste.cpp(7,5): warning G52AC0A27: explicitly assigning value of variable of type 'Masina' to itself [clang-diagnostic-self-assign-overloaded]
+          m1 = m1;
+          ~~ ^ ~~
+  Suppressed 12 warnings (12 in non-user code).
+  Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+  LABORATOR_6_7.vcxproj -> C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\x64\Debug\LABORATOR_6_7.exe
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\Masina.h(14): warning C26455: Default constructor should not throw. Declare it 'noexcept' (f.6).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\Masina.h(17): warning C26432: If you define or delete any default operation in the type 'class Masina', define or delete them all (c.21).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\repo.h(64): warning C26496: The variable 'dis' does not change after construction, mark it as const (con.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\repo.h(62): warning C26455: Default constructor should not throw. Declare it 'noexcept' (f.6).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\undo.h(8): warning C26432: If you define or delete any default operation in the type 'class ActiuneUndo', define or delete them all (c.21).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(15): warning C26823: Dereferencing a possibly null pointer 'masina' (lifetime.1).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(183): warning C26496: The variable 'adaugate' does not change after construction, mark it as const (con.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(178): warning C26485: Expression 'str': No array to pointer decay (bounds.3).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(179): warning C26485: Expression 'str': No array to pointer decay (bounds.3).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(180): warning C26485: Expression 'str': No array to pointer decay (bounds.3).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(180): warning C26485: Expression 'str': No array to pointer decay (bounds.3).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(229): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(229): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(229): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(229): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(242): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(255): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(255): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(255): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(255): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(255): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(208): warning C26823: Dereferencing a possibly null pointer '(this->consola::crt)' (lifetime.1).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(303): warning C26823: Dereferencing a possibly null pointer '(this->consola::crt)' (lifetime.1).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(358): warning C26496: The variable 'e' does not change after construction, mark it as const (con.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\consola.cpp(330): warning C26823: Dereferencing a possibly null pointer '(this->consola::crt)' (lifetime.1).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\PRepo.cpp(8): warning C26496: The variable 'r' does not change after construction, mark it as const (con.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\PRepo.cpp(8): warning C26493: Don't use C-style casts (type.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\PRepo.cpp(12): warning C26440: Function 'PRepo::setProb' can be declared 'noexcept' (f.6).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\PRepo.cpp(17): warning C26436: The type 'class PRepo' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\PRepo.cpp(23): warning C26493: Don't use C-style casts (type.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\PRepo.cpp(32): warning C26493: Don't use C-style casts (type.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\PRepo.cpp(35): warning C26493: Don't use C-style casts (type.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\PRepo.cpp(38): warning C26493: Don't use C-style casts (type.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\PRepo.cpp(53): warning C26489: Don't dereference a pointer that may be invalid: 'allotemp.9'. '(temporary 9)' may have been invalidated at line 53 (lifetime.1).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\PRepo.cpp(53): warning C26487: Don't return a pointer '(45's result)' that may be invalid (lifetime.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\PRepo.cpp(59): warning C26493: Don't use C-style casts (type.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\PRepo.cpp(68): warning C26493: Don't use C-style casts (type.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\PRepo.cpp(69): warning C26493: Don't use C-style casts (type.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\PRepo.cpp(80): warning C26489: Don't dereference a pointer that may be invalid: 'allotemp.2'. '(temporary 2)' may have been invalidated at line 80 (lifetime.1).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\PRepo.cpp(80): warning C26487: Don't return a pointer '(74's result)' that may be invalid (lifetime.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\repo.cpp(14): warning C26436: The type 'class repo' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\repo.cpp(17): warning C26823: Dereferencing a possibly null pointer 'masina' (lifetime.1).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\repo.cpp(32): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\repo.cpp(31): warning C26493: Don't use C-style casts (type.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\repo.cpp(30): warning C26823: Dereferencing a possibly null pointer 'masina' (lifetime.1).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\repo.cpp(46): warning C26489: Don't dereference a pointer that may be invalid: 'allotemp.7'. '(temporary 7)' may have been invalidated at line 46 (lifetime.1).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\repo.cpp(46): warning C26487: Don't return a pointer '(41's result)' that may be invalid (lifetime.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\repo.cpp(68): warning C26823: Dereferencing a possibly null pointer 'masina' (lifetime.1).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\repo.cpp(78): warning C26440: Function 'repo::getAll' can be declared 'noexcept' (f.6).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\service.cpp(18): warning C26823: Dereferencing a possibly null pointer 'masina' (lifetime.1).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\service.cpp(29): warning C26823: Dereferencing a possibly null pointer 'masina' (lifetime.1).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\service.cpp(49): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\service.cpp(190): warning C26493: Don't use C-style casts (type.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\service.cpp(202): warning C26823: Dereferencing a possibly null pointer 'result.->' (lifetime.1).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\service.cpp(210): warning C26496: The variable 'nr' does not change after construction, mark it as const (con.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\service.cpp(209): warning C26447: The function is declared 'noexcept' but calls function 'getAll()' which may throw exceptions (f.6).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\service.cpp(209): warning C26447: The function is declared 'noexcept' but calls function 'allocator<Masina> >()' which may throw exceptions (f.6).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\service.cpp(210): warning C26447: The function is declared 'noexcept' but calls function 'count_if<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Masina> > >,<lambda_7a04dd3013b80fc2122d15d9a8f1b209> >()' which may throw exceptions (f.6).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\service.cpp(210): warning C26493: Don't use C-style casts (type.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\Spalatorie.cpp(10): warning C26440: Function 'Spalatorie::golesteS' can be declared 'noexcept' (f.6).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\Spalatorie.cpp(18): warning C26493: Don't use C-style casts (type.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\Spalatorie.cpp(18): warning C26493: Don't use C-style casts (type.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\Spalatorie.cpp(24): warning C26440: Function 'Spalatorie::getAllMasiniS' can be declared 'noexcept' (f.6).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\teste.cpp(127): warning C26496: The variable 'm4' does not change after construction, mark it as const (con.4).
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\validator.cpp(19): warning C26823: Dereferencing a possibly null pointer 'msg' (lifetime.1).

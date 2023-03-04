@@ -1,0 +1,16 @@
+﻿Functia diferentaMinMax()
+   min: intreg
+   max: intreg
+   daca vida() atunci
+       returneaza -1
+   sfdaca
+   pentru i=0,nrElem atunci
+        daca min> elemente.i atunci 
+             min ← elemente.i
+        sfdaca
+        daca  max <elemente.i atunci
+              max ← elemente.i
+        sfdaca
+   sf pentru
+   returneaza max-min
+sf functia

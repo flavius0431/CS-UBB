@@ -1,0 +1,17 @@
+﻿'TAD Multime.exe' (Win32): Loaded 'C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\SDA\LABORATOR_4\TAD Multime\x64\Debug\TAD Multime.exe'. Symbols loaded.
+'TAD Multime.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. 
+'TAD Multime.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. 
+'TAD Multime.exe' (Win32): Loaded 'C:\Program Files\AVAST Software\Avast\aswhook.dll'. 
+'TAD Multime.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. 
+'TAD Multime.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140d.dll'. 
+'TAD Multime.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140_1d.dll'. 
+'TAD Multime.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. 
+'TAD Multime.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. 
+The thread 0x48d8 has exited with code 0 (0x0).
+The thread 0x2040 has exited with code 0 (0x0).
+The thread 0x5dc0 has exited with code 0 (0x0).
+'TAD Multime.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. 
+'TAD Multime.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. 
+'TAD Multime.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. 
+The thread 0x5ab8 has exited with code 0 (0x0).
+The program '[13160] TAD Multime.exe' has exited with code 0 (0x0).

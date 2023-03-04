@@ -1,0 +1,52 @@
+[
+  {
+    "directory": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/ZI \/JMC \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP   \"C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\consola.cpp\"",
+    "file": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\consola.cpp"
+  },
+  {
+    "directory": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/ZI \/JMC \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP   \"C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\errors.cpp\"",
+    "file": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\errors.cpp"
+  },
+  {
+    "directory": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/ZI \/JMC \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP   \"C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\main.cpp\"",
+    "file": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\main.cpp"
+  },
+  {
+    "directory": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/ZI \/JMC \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP   \"C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\Masina.cpp\"",
+    "file": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\Masina.cpp"
+  },
+  {
+    "directory": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/ZI \/JMC \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP   \"C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\PRepo.cpp\"",
+    "file": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\PRepo.cpp"
+  },
+  {
+    "directory": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/ZI \/JMC \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP   \"C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\repo.cpp\"",
+    "file": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\repo.cpp"
+  },
+  {
+    "directory": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/ZI \/JMC \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP   \"C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\service.cpp\"",
+    "file": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\service.cpp"
+  },
+  {
+    "directory": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/ZI \/JMC \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP   \"C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\Spalatorie.cpp\"",
+    "file": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\Spalatorie.cpp"
+  },
+  {
+    "directory": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/ZI \/JMC \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP   \"C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\teste.cpp\"",
+    "file": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\teste.cpp"
+  },
+  {
+    "directory": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/ZI \/JMC \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP   \"C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\validator.cpp\"",
+    "file": "C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\validator.cpp"
+  }
+]

@@ -1,0 +1,334 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flavi/OneDrive/Desktop/UBB_SEM2/OOP/LABORATOR_6_7/LABORATOR_6_7/Masina.h"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 2,
+                  "endLine": 14,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Masina::{ctor}",
+                  "decoratedName": "??0Masina@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Masina', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flavi/OneDrive/Desktop/UBB_SEM2/OOP/LABORATOR_6_7/LABORATOR_6_7/Masina.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Masina::{ctor}",
+                  "decoratedName": "??0Masina@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Spalatorie::golesteS' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flavi/OneDrive/Desktop/UBB_SEM2/OOP/LABORATOR_6_7/LABORATOR_6_7/Spalatorie.cpp"
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Spalatorie::golesteS",
+                  "decoratedName": "?golesteS@Spalatorie@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "Don't use C-style casts (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flavi/OneDrive/Desktop/UBB_SEM2/OOP/LABORATOR_6_7/LABORATOR_6_7/Spalatorie.cpp"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 12,
+                  "endLine": 18,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Spalatorie::addRandomMasini",
+                  "decoratedName": "?addRandomMasini@Spalatorie@@QEAAXV?$vector@VMasina@@V?$allocator@VMasina@@@std@@@std@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "Don't use C-style casts (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flavi/OneDrive/Desktop/UBB_SEM2/OOP/LABORATOR_6_7/LABORATOR_6_7/Spalatorie.cpp"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 46,
+                  "endLine": 18,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Spalatorie::addRandomMasini",
+                  "decoratedName": "?addRandomMasini@Spalatorie@@QEAAXV?$vector@VMasina@@V?$allocator@VMasina@@@std@@@std@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Spalatorie::getAllMasiniS' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flavi/OneDrive/Desktop/UBB_SEM2/OOP/LABORATOR_6_7/LABORATOR_6_7/Spalatorie.cpp"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 35,
+                  "endLine": 24,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Spalatorie::getAllMasiniS",
+                  "decoratedName": "?getAllMasiniS@Spalatorie@@QEAAAEBV?$vector@VMasina@@V?$allocator@VMasina@@@std@@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31104.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "C:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF7878D9CC0 -il C:\\Users\\flavi\\AppData\\Local\\Temp\\_CL_fbec33fcast -typedil -f Spalatorie.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131104 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -permissive- -Fox64\\Debug\\Spalatorie.obj -Fdx64\\Debug\\vc143.pdb -external:W 4 -Gd -analyze:projectdirectory C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7 -analyze:rulesetdirectory ;C:\\VisualStudio2022\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset rulestot.ruleset -analyze:quiet -analyze:plugin C:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\VisualStudio2022\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\Include\\um -external:I C:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\VisualStudio2022\\VC\\Auxiliary\\VS\\include -I C:\\VisualStudio2022\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\Include\\um -I C:\\Users\\flavi\\OneDrive\\Desktop\\UBB_SEM2\\OOP\\LABORATOR_6_7\\LABORATOR_6_7\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/flavi/OneDrive/Desktop/UBB_SEM2/OOP/LABORATOR_6_7/LABORATOR_6_7/Masina.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5351ac2c7484782bde3e917e967016f465aba5ba6c8ef10beaf0877fd8ad0814"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/flavi/OneDrive/Desktop/UBB_SEM2/OOP/LABORATOR_6_7/LABORATOR_6_7/repo.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "22a6b534f77f6ccd18d4b9e0379c2a38cbbe3228ce524e04d6830f382c3f4631"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/flavi/OneDrive/Desktop/UBB_SEM2/OOP/LABORATOR_6_7/LABORATOR_6_7/undo.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ca47634d0b647a7e5efb59c1b96337bc38b396c08a26638b67960c41b8624c3b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/flavi/OneDrive/Desktop/UBB_SEM2/OOP/LABORATOR_6_7/LABORATOR_6_7/service.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e78108b1d5050fa4b23bec5eebe8e59d8ad76200e07888d2ccf6105de745dd06"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/flavi/onedrive/desktop/ubb_sem2/oop/laborator_6_7/laborator_6_7/service.h"
+          },
+          "hashes": {
+            "sha-256": "680610c3572f9eecf9ebc84324072f65ad444e6ebe6003d6ec56002fa22fb1ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/flavi/onedrive/desktop/ubb_sem2/oop/laborator_6_7/laborator_6_7/errors.h"
+          },
+          "hashes": {
+            "sha-256": "d896350f69d50c5fa152b716dfa0bcca17cac2c597353b2496a0350c38177f92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/flavi/onedrive/desktop/ubb_sem2/oop/laborator_6_7/laborator_6_7/spalatorie.h"
+          },
+          "hashes": {
+            "sha-256": "7134315c85f184fb5109da0322e2faf5f278dbdc4f5b8ed0ee33ee548227e9b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/flavi/onedrive/desktop/ubb_sem2/oop/laborator_6_7/laborator_6_7/validator.h"
+          },
+          "hashes": {
+            "sha-256": "e7941b8ae578b1423fae31233013bc12d2939de122a6b9798e8330bb6ecfb9a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/flavi/OneDrive/Desktop/UBB_SEM2/OOP/LABORATOR_6_7/LABORATOR_6_7/repo.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2aa3a75ed7acccf961d426e5fa0f56f94a5702f524f2602d3df0e20797c1d4cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/flavi/onedrive/desktop/ubb_sem2/oop/laborator_6_7/laborator_6_7/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "294f14e0ac001798a47ea141bcd19cfd8c1a02ce0d1ea5c9f515da8ca6656146"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/flavi/onedrive/desktop/ubb_sem2/oop/laborator_6_7/laborator_6_7/consola.h"
+          },
+          "hashes": {
+            "sha-256": "7076ab473f7a1d11828e4619212a636ac3597e42b43aaba874a9d559c780f45e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/flavi/onedrive/desktop/ubb_sem2/oop/laborator_6_7/laborator_6_7/teste.h"
+          },
+          "hashes": {
+            "sha-256": "42736261617c6731e821438ed6337202528181719db7aa9221e1dc43a2c9ac1e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/flavi/OneDrive/Desktop/UBB_SEM2/OOP/LABORATOR_6_7/LABORATOR_6_7/consola.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8ef07e3fe2ec6fba90e36e8c64ac0db1ef79ca417742985c7816fa59721747ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/flavi/OneDrive/Desktop/UBB_SEM2/OOP/LABORATOR_6_7/LABORATOR_6_7/Spalatorie.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ef320ca7e6cebce47f0d94f85b8ebf4cfe4053f4910fef1c37bb49a9eb97de9b"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\x64\Debug\LABORATOR_6_7.exe.lastcodeanalysissucceeded
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\LABORATOR_6_7\x64\Debug\NativeCodeAnalysis.read.1.tlog
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7_V2\x64\Debug\LABORATOR_6_7.exe.lastcodeanalysissucceeded
+C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7_V2\LABORATOR_6_7\x64\Debug\NativeCodeAnalysis.read.1.tlog

@@ -1,0 +1,5 @@
+﻿Start building LABORATOR_6_7\LABORATOR_6_7.vcxproj Debug|x64
+Start computing code coverage...
+Run:
+"C:\USERS\FLAVI\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\17.0_1E93C641\EXTENSIONS\XEV4FCM1.TC3\OpenCppCoverage-x64\OpenCppCoverage.exe" --config_file "C:\Users\flavi\AppData\Local\Temp\ydfj4cuo.awl" -- "C:\Users\flavi\OneDrive\Desktop\UBB_SEM2\OOP\LABORATOR_6_7\x64\Debug\LABORATOR_6_7.exe" 
+Coverage written in C:\Users\flavi\AppData\Local\Temp\ic1simry.25g
