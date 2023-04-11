@@ -1,0 +1,12 @@
+
+
+%f([],0).
+%f([H|T],S):-f(T,S1),H<S1,!,S is H+S1.
+%f([_|T],S):-f(T,S1),S is S1+2.
+
+f([],0).
+f([H|T],S):-f(T,S1),p_aux([H|T],S,S1).
+
+p_aux([H|_],S,S1):-H<S1,!,S is H+S1.
+p_aux([_|_],S,S1):-S is S1+2.
+

@@ -1,0 +1,14 @@
+2023-04-03 21:58:17,791 INFO [Tema1csharp.Program]: mergee ba
+2023-04-03 21:58:18,008 INFO [OficiuPersonaDBRepo]: Creating OficiuPersoanaDBRepo
+2023-04-03 21:58:18,009 INFO [ProbaDBRepo]: Creating ProbaDBRepo
+2023-04-03 21:58:18,010 INFO [ParticioantDBRepo]: Creating ParticipantDBRepo
+2023-04-03 21:58:18,037 INFO [OficiuPersonaDBRepo]: Entering LogIn with values flavius,1234
+2023-04-03 21:58:18,918 INFO [OficiuPersonaDBRepo]: Exiting LogIn with value ConsoleApp1.domain.OficiuPersoana
+2023-04-03 21:58:18,932 INFO [ParticioantDBRepo]: Entering findAll with value 0
+2023-04-03 21:58:18,935 INFO [ProbaDBRepo]: Entering findOne with value 1
+2023-04-03 21:58:18,937 INFO [ProbaDBRepo]: Exiting findOne with value 12 Dance
+2023-04-03 21:58:18,937 INFO [ProbaDBRepo]: Entering findOne with value 2
+2023-04-03 21:58:18,938 INFO [ProbaDBRepo]: Exiting findOne with value 9 hiking
+2023-04-03 21:58:18,939 INFO [ProbaDBRepo]: Entering findOne with value 3
+2023-04-03 21:58:18,939 INFO [ProbaDBRepo]: Exiting findOne with value 3 scris
+2023-04-03 21:58:18,939 INFO [ParticioantDBRepo]: Exiting findAll with value System.Collections.Generic.List`1[ConsoleApp1.domain.Participant]

@@ -1,0 +1,25 @@
+body * {
+	margin:5px;
+}
+
+input.patrat {
+	height:26px;
+	border:0;
+	outline: 0;	
+
+	background: url('linewhite.jpg');	
+	font-family: Consolas;
+	font-size:20px;			
+	padding-left:7px;
+	letter-spacing:14px;
+	
+	width: calc((25px * (var(--data-x))));	
+		
+	border:1px solid black;		
+	border-left:0;
+	
+	text-overflow:display;		
+	
+}
+
+

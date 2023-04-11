@@ -1,0 +1,30 @@
+body ul{
+    border: 2px solid black ;
+    columns: 2;
+    width: 400px;
+}
+
+body ul li{
+   position: relative;
+   display: inline-block;
+   list-style-type: none;
+   margin-left: -20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-right: 20px;
+   border: 20px solid turquoise;
+   background-color: turquoise;
+   width: 80%;
+}
+
+body ul li img{
+    height: 200px;
+    width: 150px;
+    vertical-align: middle;
+ }
+
+ body ul li span{
+
+   margin-left: 20px;
+    
+ }

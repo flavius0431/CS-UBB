@@ -1,0 +1,136 @@
+21 Mar 2023 12:32:35,895 INFO  org.example.repository.database.OficiuPersoanaDBRepo 21 <init> - Initializing OficiuPersoanaDBRepo with properties:{jdbc.url=jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db}
+21 Mar 2023 12:32:35,939 INFO  org.example.repository.database.ProbaDBRepo 21 <init> - Initializing ProbaDBRepo with properties:{jdbc.url=jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db}
+21 Mar 2023 12:32:35,969 INFO  org.example.repository.database.ParticipantDBRepo 27 <init> - Initializing ParticipantDBRepo with properties: {jdbc.url=jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db}
+21 Mar 2023 12:32:35,971 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+21 Mar 2023 12:32:35,972 TRACE org.example.repository.JdbcUtils 24 getNewConnection - Enter
+21 Mar 2023 12:32:35,972 INFO  org.example.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db
+21 Mar 2023 12:32:35,973 INFO  org.example.repository.JdbcUtils 30 getNewConnection - user: null
+21 Mar 2023 12:32:35,973 INFO  org.example.repository.JdbcUtils 31 getNewConnection - pass: null
+21 Mar 2023 12:32:36,282 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@790da477)
+21 Mar 2023 12:32:36,297 TRACE org.example.repository.database.OficiuPersoanaDBRepo 84 Login - Exit
+21 Mar 2023 12:32:36,298 TRACE org.example.repository.database.ParticipantDBRepo 38 findAll - Enter
+21 Mar 2023 12:32:36,298 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+21 Mar 2023 12:32:36,298 TRACE org.example.repository.JdbcUtils 24 getNewConnection - Enter
+21 Mar 2023 12:32:36,299 INFO  org.example.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db
+21 Mar 2023 12:32:36,299 INFO  org.example.repository.JdbcUtils 30 getNewConnection - user: null
+21 Mar 2023 12:32:36,299 INFO  org.example.repository.JdbcUtils 31 getNewConnection - pass: null
+21 Mar 2023 12:32:36,300 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f15d60e)
+21 Mar 2023 12:32:36,303 TRACE org.example.repository.database.ProbaDBRepo 26 findOne - Enter findone task{}, elem
+21 Mar 2023 12:32:36,304 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+21 Mar 2023 12:32:36,304 TRACE org.example.repository.JdbcUtils 24 getNewConnection - Enter
+21 Mar 2023 12:32:36,304 INFO  org.example.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db
+21 Mar 2023 12:32:36,305 INFO  org.example.repository.JdbcUtils 30 getNewConnection - user: null
+21 Mar 2023 12:32:36,305 INFO  org.example.repository.JdbcUtils 31 getNewConnection - pass: null
+21 Mar 2023 12:32:36,306 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58e1d9d)
+21 Mar 2023 12:32:36,311 TRACE org.example.repository.database.ProbaDBRepo 42 findOne - Exit with(org.example.domain.Proba@1500b2f3)
+21 Mar 2023 12:32:36,311 TRACE org.example.repository.database.ProbaDBRepo 26 findOne - Enter findone task{}, elem
+21 Mar 2023 12:32:36,312 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+21 Mar 2023 12:32:36,312 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58e1d9d)
+21 Mar 2023 12:32:36,312 TRACE org.example.repository.database.ProbaDBRepo 42 findOne - Exit with(org.example.domain.Proba@7eecb5b8)
+21 Mar 2023 12:32:36,313 TRACE org.example.repository.database.ProbaDBRepo 26 findOne - Enter findone task{}, elem
+21 Mar 2023 12:32:36,314 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+21 Mar 2023 12:32:36,314 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58e1d9d)
+21 Mar 2023 12:32:36,314 TRACE org.example.repository.database.ProbaDBRepo 42 findOne - Exit with(org.example.domain.Proba@475c9c31)
+21 Mar 2023 12:32:36,318 TRACE org.example.repository.database.ParticipantDBRepo 63 findAll - Exit with([Participant{nume='Mihai', varsta=23}, Participant{nume='Bucur', varsta=18}])
+21 Mar 2023 13:43:29,050 INFO  org.example.repository.database.OficiuPersoanaDBRepo 21 <init> - Initializing OficiuPersoanaDBRepo with properties:{jdbc.url=jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db}
+21 Mar 2023 13:43:29,061 INFO  org.example.repository.database.ProbaDBRepo 21 <init> - Initializing ProbaDBRepo with properties:{jdbc.url=jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db}
+21 Mar 2023 13:43:29,064 INFO  org.example.repository.database.ParticipantDBRepo 27 <init> - Initializing ParticipantDBRepo with properties: {jdbc.url=jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db}
+21 Mar 2023 13:43:29,067 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+21 Mar 2023 13:43:29,068 TRACE org.example.repository.JdbcUtils 24 getNewConnection - Enter
+21 Mar 2023 13:43:29,068 INFO  org.example.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db
+21 Mar 2023 13:43:29,069 INFO  org.example.repository.JdbcUtils 30 getNewConnection - user: null
+21 Mar 2023 13:43:29,069 INFO  org.example.repository.JdbcUtils 31 getNewConnection - pass: null
+21 Mar 2023 13:43:29,598 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 Mar 2023 13:43:29,627 TRACE org.example.repository.database.OficiuPersoanaDBRepo 84 Login - Exit
+21 Mar 2023 13:43:29,628 TRACE org.example.repository.database.ParticipantDBRepo 38 findAll - Enter
+21 Mar 2023 13:43:29,628 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+21 Mar 2023 13:43:29,629 TRACE org.example.repository.JdbcUtils 24 getNewConnection - Enter
+21 Mar 2023 13:43:29,630 INFO  org.example.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db
+21 Mar 2023 13:43:29,631 INFO  org.example.repository.JdbcUtils 30 getNewConnection - user: null
+21 Mar 2023 13:43:29,632 INFO  org.example.repository.JdbcUtils 31 getNewConnection - pass: null
+21 Mar 2023 13:43:29,634 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be2019a)
+21 Mar 2023 13:43:29,638 TRACE org.example.repository.database.ProbaDBRepo 26 findOne - Enter findone task{}, elem
+21 Mar 2023 13:43:29,639 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+21 Mar 2023 13:43:29,639 TRACE org.example.repository.JdbcUtils 24 getNewConnection - Enter
+21 Mar 2023 13:43:29,640 INFO  org.example.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db
+21 Mar 2023 13:43:29,640 INFO  org.example.repository.JdbcUtils 30 getNewConnection - user: null
+21 Mar 2023 13:43:29,641 INFO  org.example.repository.JdbcUtils 31 getNewConnection - pass: null
+21 Mar 2023 13:43:29,642 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@446a1e84)
+21 Mar 2023 13:43:29,651 TRACE org.example.repository.database.ProbaDBRepo 42 findOne - Exit with(org.example.domain.Proba@7eecb5b8)
+21 Mar 2023 13:43:29,652 TRACE org.example.repository.database.ProbaDBRepo 26 findOne - Enter findone task{}, elem
+21 Mar 2023 13:43:29,652 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+21 Mar 2023 13:43:29,653 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@446a1e84)
+21 Mar 2023 13:43:29,654 TRACE org.example.repository.database.ProbaDBRepo 42 findOne - Exit with(org.example.domain.Proba@126253fd)
+21 Mar 2023 13:43:29,656 TRACE org.example.repository.database.ProbaDBRepo 26 findOne - Enter findone task{}, elem
+21 Mar 2023 13:43:29,657 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+21 Mar 2023 13:43:29,657 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@446a1e84)
+21 Mar 2023 13:43:29,659 TRACE org.example.repository.database.ProbaDBRepo 42 findOne - Exit with(org.example.domain.Proba@5c86a017)
+21 Mar 2023 13:43:29,666 TRACE org.example.repository.database.ParticipantDBRepo 63 findAll - Exit with([Participant{nume='Mihai', varsta=23}, Participant{nume='Bucur', varsta=18}])
+28 Mar 2023 00:05:21,665 INFO  org.example.repository.database.OficiuPersoanaDBRepo 21 <init> - Initializing OficiuPersoanaDBRepo with properties:{jdbc.url=jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db}
+28 Mar 2023 00:05:21,702 INFO  org.example.repository.database.ProbaDBRepo 21 <init> - Initializing ProbaDBRepo with properties:{jdbc.url=jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db}
+28 Mar 2023 00:05:21,728 INFO  org.example.repository.database.ParticipantDBRepo 27 <init> - Initializing ParticipantDBRepo with properties: {jdbc.url=jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db}
+28 Mar 2023 00:05:21,730 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 00:05:21,730 TRACE org.example.repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 00:05:21,731 INFO  org.example.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db
+28 Mar 2023 00:05:21,731 INFO  org.example.repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 00:05:21,731 INFO  org.example.repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 00:05:22,220 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+28 Mar 2023 00:05:22,231 TRACE org.example.repository.database.OficiuPersoanaDBRepo 84 Login - Exit
+28 Mar 2023 00:05:22,232 TRACE org.example.repository.database.ParticipantDBRepo 38 findAll - Enter
+28 Mar 2023 00:05:22,232 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 00:05:22,232 TRACE org.example.repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 00:05:22,232 INFO  org.example.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db
+28 Mar 2023 00:05:22,233 INFO  org.example.repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 00:05:22,233 INFO  org.example.repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 00:05:22,233 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be2019a)
+28 Mar 2023 00:05:22,235 TRACE org.example.repository.database.ProbaDBRepo 26 findOne - Enter findone task{}, elem
+28 Mar 2023 00:05:22,236 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 00:05:22,236 TRACE org.example.repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 00:05:22,236 INFO  org.example.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db
+28 Mar 2023 00:05:22,236 INFO  org.example.repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 00:05:22,237 INFO  org.example.repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 00:05:22,237 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@446a1e84)
+28 Mar 2023 00:05:22,240 TRACE org.example.repository.database.ProbaDBRepo 42 findOne - Exit with(org.example.domain.Proba@7eecb5b8)
+28 Mar 2023 00:05:22,240 TRACE org.example.repository.database.ProbaDBRepo 26 findOne - Enter findone task{}, elem
+28 Mar 2023 00:05:22,241 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 00:05:22,241 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@446a1e84)
+28 Mar 2023 00:05:22,241 TRACE org.example.repository.database.ProbaDBRepo 42 findOne - Exit with(org.example.domain.Proba@126253fd)
+28 Mar 2023 00:05:22,243 TRACE org.example.repository.database.ProbaDBRepo 26 findOne - Enter findone task{}, elem
+28 Mar 2023 00:05:22,243 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 00:05:22,243 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@446a1e84)
+28 Mar 2023 00:05:22,244 TRACE org.example.repository.database.ProbaDBRepo 42 findOne - Exit with(org.example.domain.Proba@5c86a017)
+28 Mar 2023 00:05:22,247 TRACE org.example.repository.database.ParticipantDBRepo 63 findAll - Exit with([Participant{nume='Mihai', varsta=23}, Participant{nume='Bucur', varsta=18}])
+28 Mar 2023 00:28:57,328 INFO  org.example.repository.database.OficiuPersoanaDBRepo 21 <init> - Initializing OficiuPersoanaDBRepo with properties:{jdbc.url=jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db}
+28 Mar 2023 00:28:57,341 INFO  org.example.repository.database.ProbaDBRepo 21 <init> - Initializing ProbaDBRepo with properties:{jdbc.url=jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db}
+28 Mar 2023 00:28:57,352 INFO  org.example.repository.database.ParticipantDBRepo 27 <init> - Initializing ParticipantDBRepo with properties: {jdbc.url=jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db}
+28 Mar 2023 00:28:57,354 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 00:28:57,354 TRACE org.example.repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 00:28:57,354 INFO  org.example.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db
+28 Mar 2023 00:28:57,355 INFO  org.example.repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 00:28:57,355 INFO  org.example.repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 00:28:57,624 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+28 Mar 2023 00:28:57,637 TRACE org.example.repository.database.OficiuPersoanaDBRepo 84 Login - Exit
+28 Mar 2023 00:28:57,638 TRACE org.example.repository.database.ParticipantDBRepo 38 findAll - Enter
+28 Mar 2023 00:28:57,638 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 00:28:57,639 TRACE org.example.repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 00:28:57,639 INFO  org.example.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db
+28 Mar 2023 00:28:57,639 INFO  org.example.repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 00:28:57,639 INFO  org.example.repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 00:28:57,640 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be2019a)
+28 Mar 2023 00:28:57,642 TRACE org.example.repository.database.ProbaDBRepo 26 findOne - Enter findone task{}, elem
+28 Mar 2023 00:28:57,643 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 00:28:57,643 TRACE org.example.repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 00:28:57,643 INFO  org.example.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/UBB_2_SEM2/MPP/mpp-proiect-java-flavius0431/concurs.db
+28 Mar 2023 00:28:57,644 INFO  org.example.repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 00:28:57,644 INFO  org.example.repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 00:28:57,645 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@446a1e84)
+28 Mar 2023 00:28:57,648 TRACE org.example.repository.database.ProbaDBRepo 42 findOne - Exit with(org.example.domain.Proba@7eecb5b8)
+28 Mar 2023 00:28:57,649 TRACE org.example.repository.database.ProbaDBRepo 26 findOne - Enter findone task{}, elem
+28 Mar 2023 00:28:57,649 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 00:28:57,649 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@446a1e84)
+28 Mar 2023 00:28:57,649 TRACE org.example.repository.database.ProbaDBRepo 42 findOne - Exit with(org.example.domain.Proba@126253fd)
+28 Mar 2023 00:28:57,651 TRACE org.example.repository.database.ProbaDBRepo 26 findOne - Enter findone task{}, elem
+28 Mar 2023 00:28:57,651 TRACE org.example.repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 00:28:57,651 TRACE org.example.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@446a1e84)
+28 Mar 2023 00:28:57,652 TRACE org.example.repository.database.ProbaDBRepo 42 findOne - Exit with(org.example.domain.Proba@5c86a017)
+28 Mar 2023 00:28:57,654 TRACE org.example.repository.database.ParticipantDBRepo 63 findAll - Exit with([Participant{nume='Mihai', varsta=23}, Participant{nume='Bucur', varsta=18}])

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+<body>
+<!-- CTRL+/ pune comentarii -->
+    <form method="GET"> <!-- action=action.php--> <!-- or method="POST"-->
+        First Name: <input type="text" name="firstname"><br>
+        Last Name: <input type="text" name="lastname"><br>
+        Email: <input type="email" name="email" required><br>
+        Password: <input type="password" name="password" min=5><br>
+        Birthday: <input type="date" name="birthday"><br>
+        Gender:<br>
+        <input type="radio" name="gender" value="Male">Male<br>
+        <input type="radio" name="gender" value="Female">Female<br>
+        <input type="radio" name="gender" value="Other">Other<br>
+        Pets: <br>
+        <input type="checkbox" name="cat"> Cat<br>
+        <input type="checkbox" name="dog"> Dog<br>
+        <input type="checkbox" name="papagal"> Papagal<br>
+        Cars: <br>
+        <select name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="audi">Audi</option>
+        <option value="ford">Ford</option>
+        </select> <br>      
+        Hobbies:<br>
+        <select name="hobbies" multiple>
+        <option value="music">Music</option>
+        <option value="travel">Travel</option>
+        <option value="other">Other</option>
+        </select> <br>
+        <textarea name="message" rows="10" cols="30">Text to be
+        displayed.</textarea> <br>
+        <input type="submit" value="Register!">
+        <input type="reset">
+    </form>
+</body>
+</html>

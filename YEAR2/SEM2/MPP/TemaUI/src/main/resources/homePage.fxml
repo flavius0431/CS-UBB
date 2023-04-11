@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="730.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomePageController">
+   <children>
+      <Label layoutX="311.0" layoutY="29.0" text="Inscriere Participant">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <Label layoutX="441.0" layoutY="329.0" text="Varsta:" />
+      <TextField fx:id="VarstaTextField" layoutX="522.0" layoutY="324.0" prefHeight="26.0" prefWidth="127.0" />
+      <Label layoutX="441.0" layoutY="285.0" text="Nume:" />
+      <TextField fx:id="NumeTextField" layoutX="522.0" layoutY="281.0" prefHeight="26.0" prefWidth="127.0" />
+      <TableView fx:id="probaTableView" layoutX="33.0" layoutY="68.0" prefHeight="182.0" onMouseClicked="#initParticipant" prefWidth="660.0">
+        <columns>
+          <TableColumn fx:id="probaColumn" prefWidth="160.79998397827148" text="Proba" />
+          <TableColumn fx:id="varstaMinColumn" prefWidth="175.1999969482422" text="Varsta Min" />
+            <TableColumn fx:id="varstaMaxColumn" prefWidth="136.79998779296875" text="Varsta Max" />
+            <TableColumn fx:id="NumarParticipantiColumn" prefWidth="188.00006103515625" text="Numar Participanti" />
+        </columns>
+      </TableView>
+      <TableView fx:id="participantTableView" layoutX="33.0" layoutY="268.0" prefHeight="208.0" prefWidth="310.0">
+        <columns>
+          <TableColumn fx:id="numeColumn" prefWidth="169.60004043579102" text="Nume" />
+          <TableColumn fx:id="varstaColumn" prefWidth="139.19997253417966" text="Varsta" />
+        </columns>
+      </TableView>
+      <Button fx:id="AdaugaButton" layoutX="514.0" layoutY="445.0" mnemonicParsing="false" onAction="#handleAddButton" text="Inscriere" />
+      <Button fx:id="LogOutButton" layoutX="635.0" layoutY="445.0" mnemonicParsing="false" onAction="#handleLogOut" text="LogOut" />
+      <Label layoutX="446.0" layoutY="372.0" text="CNP:" />
+      <TextField fx:id="CNPTextField" layoutX="522.0" layoutY="368.0" prefHeight="26.0" prefWidth="127.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Simboti
+ Flavius">
+        <meta name="description" content="Cooking Contest">
+        <meta name="keywords" content="HTML">
+        <title>Concurs de g&#259;tit</title>
+    </head>
+    <body>
+    <div>
+        <h1>Cooking contest</h1>
+    </div>
+        <p>
+            <i>
+                <b>
+                    <span >Bine a&#355;i venit la concursul de g&#259;tit!Aici v&#259; pute&#355;i &#238;nscrie!<br>Baft&#259;!</span>
+                </b>
+            </i>
+        </p>
+       <div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYUlXCWATLSY_SQoB0cdGSCi6EGpdg3kofyxOO4Rx-R1M46w/closedform" target="_blank" >
+                <img src=https://media.gettyimages.com/id/476610355/photo/competitive-chefs.jpg?s=612x612&w=0&k=20&c=kNa1vGUgoGTCM8yGXxMx9o4nEWZauUJr2psLECDbgiQ=
+                alt="Cooking Contest"
+                title="Click pentru &#238;nscriere!">    
+            </a>
+       </div>
+        <form method="GET" action="https://chat.openai.com/chat">
+            <table>    
+                <tr>
+                    <td >
+                        <strong>Date Personale</strong>
+                        <table>
+                            <tr >
+                                <td>Nume</td>
+                                <td><input type="text" name="Nume"></td>
+                                <td>Prenume</td>
+                                <td><input type="text" name="Prenume"></td>
+                                <td>Email
+                                <input type="text" name="Email"></td>
+                            </tr>
+                            <tr>
+                                <td>Telefon</td>
+                                <td><input type="text" name="Telefon" maxlength="10"></td>
+                                <td>Numar minim stele Michelin<input type="text" name="nrstele" value="2" readonly></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>CNP</td>
+                                <td><input type="text" name="CNP" maxlength="13"></td>
+                                <td>Zi de na&#351;tere</td>
+                                <td> <input type="text" name="Zi de nastere" maxlength="20"></td>
+                                <td>
+                                    Gen
+                                    <input type="radio" name="Gen" value="n">M
+                                    <input type="radio" name="Gen" value="f">F
+                                    <input type="radio" name="Gen" value="n">N
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Adversar</strong>
+                        <table>
+                            <tr> 
+                                <td>Nume
+                                <input type="text" name="Nume" maxlength="30"></td>
+                                <td>Prenume
+                                <input type="text" name="Prenume" maxlength="30"></td>
+                                <td>Email
+                                <input type="text" name="Email" maxlength="30"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td >Telefon</td>
+                                <td><input type="text" name="Telefon" maxlength="10"></td>
+                                <td>Numar minim stele Michelin<input type="text" name="nrstele" value="2"  disabled></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>CNP</td>
+                                <td><input type="text" name="CNP" maxlength="13"></td>
+                                <td>Zi de na&#351;tere</td>
+                                <td> <input type="text" name="Zi de nastere" maxlength="20"></td>
+                                <td>
+                                    <fieldset>
+                                        <legend>Gen</legend>
+                                        <input type="radio" name="Gen" value="n">M
+                                        <input type="radio" name="Gen" value="f">F
+                                        <input type="radio" name="Gen" value="n">N
+                                    </fieldset>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                   <td>
+                       <table>
+                            <tr>
+                                <th><b>Categorie Persoana 1</b></th>
+                                <th><b>Categorie Persoana 2</b></th>
+                                <th><b>Observa&#355;ii</b></th>
+                                <th><b>Fel de mancare</b></th>
+                                </tr>
+                            <tr>
+                                <td colspan="1" >
+                                    <select name="tip" multiple>
+                                        <option value="carnivor" selected>carnivor</option>
+                                        <option value="vegan">vegan</option>
+                                        <option value="vegetarian">vegetarian</option>
+                                        <option value="ovo-lacto-vegetarian">ovo-lacto-vegetarian</option>
+                                    </select>
+                                </td>
+                                <td colspan="1">
+                                   <select name="tip" multiple>
+                                       <option value="carnivor" selected>carnivor</option>
+                                       <option value="vegan">vegan</option>
+                                       <option value="vegetarian">vegetarian</option>
+                                       <option value="ovo-lacto-vegetarian">ovo-lacto-vegetarian</option>
+                                   </select>
+                                </td> 
+                                <td>
+                                    <textarea name="observatii" rows="10" cols="30" >&#259;&#258;&#226;&#194;&#238;&#206;&#351;&#350;&#355;&#354;
+                                    </textarea>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="group" id="desert" checked>Desert</li>
+                                        <li><input type="checkbox" name="group" id="aperitiv">Aperitiv</li>
+                                        <li><input type="checkbox" name="group" id="felprincipal">Fel Principal</li>
+                                        <li><input type="checkbox" name="group" id="felsecundar">Fel Secundar</li>
+                                    </ul>
+                                </td> 
+                            </tr>
+                       </table>
+                    </td>
+                </tr>
+                    
+                            Numar Calorii 1<input type="text"  min="1000" max="7000" step="100">
+                            Numar Calorii 2<input type="number"  min="1000" max="7000" step="100">
+                       
+                <tr>
+                    <th>Termeni si conditii</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ol start="2">
+                            <li>Definitii:
+                                <ul>
+                                    <li>definitie definitie definitie</li>
+                                    <li>inca definitie inca definitie inca definitie</li>
+                                </ul>
+                            </li>
+                            <li>Utilizator/Client: reprezinta persoana care acceseaza  in scopuri private sau profesionale si/sau care a acceptat Conditiile de Utilizare ale prezentului Site, indeplinind in acest sens toate cerintele procesului de inregistrare, initiand si finalizand o comanda.</li>
+                            <li>Utilizare abuziva: reprezinta utilizarea Site-ului intr-un mod contrar practicii in domeniu, a reglementarilor si ale legislatiei in vigoare sau in orice alt mod care poate produce prejudicii Societatii si/sau marcii Nobila Casa, marca inregistrata a S.C. MENDOLA PRO S.R.L.</li>
+                            <li>Comanda: reprezinta un document electronic, generat ca urmare a accesarii Site-ului de catre Client, ce intervine ca formă de comunicare între Societate și Client, prin selectarea de produse de catre Client din cadrul celor comercializate de catre Societate.</li>
+                        </ol>
+                    </td>
+                </tr>            
+                <tr>
+                    <td>
+                        <ol type="I">
+                            <li><input type="submit" value="Inregistrare formular"></li>
+                            <li><input type="reset" value="Reseteaza"></li>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
