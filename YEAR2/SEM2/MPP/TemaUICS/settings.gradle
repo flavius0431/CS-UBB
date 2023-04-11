@@ -1,7 +1,0 @@
-rootProject.name = "TemaUICS"
-include 'ConcursClientFX'
-include 'ConcursModel'
-include 'ConcursNetworking'
-include 'ConcursPersistence'
-include 'ConcursServer'
-include 'ConcursServices'
