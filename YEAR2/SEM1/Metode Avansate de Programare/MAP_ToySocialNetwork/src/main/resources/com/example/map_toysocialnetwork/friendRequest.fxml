@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="575.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.map_toysocialnetwork.controller.FriendPageRequests">
+   <children>
+      <Label layoutX="44.0" layoutY="40.0" text="Friend Requests!" textFill="#7a12b1">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TableView fx:id="FriendRequests" layoutX="26.0" layoutY="72.0" prefHeight="251.0" prefWidth="436.0">
+        <columns>
+          <TableColumn fx:id="tableColumnFirstNameP" prefWidth="88.79995346069336" text="FirstName" />
+          <TableColumn fx:id="tableColumnLastNameP" prefWidth="100.800048828125" text="LastName" />
+            <TableColumn fx:id="tableColumnStatus" prefWidth="110.39997863769531" text="Status" />
+            <TableColumn fx:id="tableColumnDate" prefWidth="136.79998779296875" text="Date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

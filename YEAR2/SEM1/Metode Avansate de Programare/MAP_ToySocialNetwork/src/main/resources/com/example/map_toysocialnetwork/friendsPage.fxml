@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="384.0" prefWidth="641.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.map_toysocialnetwork.controller.FriendsPageController">
+   <children>
+      <Label layoutX="14.0" layoutY="26.0" prefHeight="18.0" prefWidth="57.0" text="Users">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="serchUserName" layoutX="72.0" layoutY="62.0" prefHeight="26.0" prefWidth="108.0" />
+      <Button fx:id="AddFriend" layoutX="32.0" layoutY="325.0" mnemonicParsing="false" onAction="#handleAddNewFriend" prefHeight="26.0" prefWidth="134.0" text="Add Friend" />
+      <TableView fx:id="Users" layoutX="14.0" layoutY="95.0" prefHeight="218.0" prefWidth="532.0">
+        <columns>
+          <TableColumn fx:id="tableColumnFirstName" prefWidth="164.79998779296875" text="FirstName" />
+            <TableColumn fx:id="tableColumnLastName" prefWidth="156.800048828125" text="LastName" />
+            <TableColumn fx:id="tableColumnEmail" prefWidth="207.20001220703125" text="Email" />
+        </columns>
+      </TableView>
+      <Button fx:id="cancelFriendReguest" layoutX="186.0" layoutY="325.0" mnemonicParsing="false" onAction="#handleCancelFriendRequest" prefHeight="26.0" prefWidth="134.0" text="Cancel friend request" />
+      <Label layoutX="18.0" layoutY="66.0" prefHeight="18.0" prefWidth="58.0" text="Search:" />
+      <Label layoutX="225.0" layoutY="67.0" prefHeight="18.0" prefWidth="338.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="392.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.map_toysocialnetwork.controller.HomePageController">
+   <children>
+      <Label layoutX="27.0" layoutY="70.0" text="Friend list">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="21.0" text="HOME PAGE!" textFill="#681691">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="logOut" layoutX="398.0" layoutY="133.0" mnemonicParsing="false" onAction="#handleLogOut" prefHeight="26.0" prefWidth="98.0" text="Log out" />
+      <Button fx:id="removeFriend" layoutX="398.0" layoutY="169.0" mnemonicParsing="false" onAction="#handleRemoveFriend" prefHeight="26.0" prefWidth="98.0" text="Remove Friend" />
+      <Button fx:id="addNewFriend" layoutX="398.0" layoutY="209.0" mnemonicParsing="false" onAction="#handleAddNewFriend" prefHeight="26.0" prefWidth="98.0" text="Add new friend" />
+      <Label layoutX="13.0" layoutY="11.0" text="Hello!" />
+      <TableView fx:id="tableViewUtilizatori" layoutX="27.0" layoutY="95.0" prefHeight="255.0" prefWidth="314.0">
+        <columns>
+          <TableColumn fx:id="tableColumnFirstName" prefWidth="91.19997787475586" text="First Name" />
+          <TableColumn fx:id="tableColumnLastName" minWidth="0.0" prefWidth="108.0" text="Last Name" />
+            <TableColumn fx:id="tableColumnEmail" prefWidth="114.39998474121091" text="Email" />
+        </columns>
+      </TableView>
+      <Button fx:id="friendRequest" layoutX="398.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleFriendRequest" prefHeight="26.0" prefWidth="98.0" text="Friend requests" />
+      <Button fx:id="sendRequest" layoutX="398.0" layoutY="284.0" mnemonicParsing="false" onAction="#handleSentRequest" prefHeight="26.0" prefWidth="98.0" text="Sent requests" />
+      <Button fx:id="newLoginButton" layoutX="398.0" layoutY="95.0" mnemonicParsing="false"  onAction="#handleNewLoginButton" prefHeight="26.0" prefWidth="98.0" text="New Log in" />
+      <Button fx:id="sendMessage" layoutX="398.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleSendMessage" prefHeight="26.0" prefWidth="98.0" text="Send message" />
+   </children>
+</AnchorPane>
